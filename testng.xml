@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Page Test Suite">
+  <test name="Google Page Test">
+    <classes>
+      <class name="com.google.tests.GoogleSearchVerifyResultTest"/>
+     </classes>
+  </test>
+</suite>
