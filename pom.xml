@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.google.seleniummaven</groupId>
-  <artifactId>excelseleniumdataprovider_V1.2</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-    <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.google.seleniummaven</groupId>
+	<artifactId>SeleniumUpdatedArchitecture_V1.1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
 		<jre.level>1.7</jre.level>
 		<jdk.level>1.7</jdk.level>
 	</properties>
@@ -22,25 +23,20 @@
 			<artifactId>testng</artifactId>
 			<version>6.8.8</version>
 		</dependency>
-		
+
 		<dependency>
-           <groupId>org.apache.poi</groupId>
-           <artifactId>poi</artifactId>
-           <version>3.16</version>
-        </dependency>
-		
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.16</version>
+		</dependency>
+
 		<dependency>
-          <groupId>org.apache.poi</groupId>
-          <artifactId>poi-ooxml</artifactId>
-          <version>3.16</version>
-        </dependency>
-		
-		
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.16</version>
+		</dependency>
+
 	</dependencies>
-
-
-
-
 
 	<build>
 		<plugins>
@@ -61,13 +57,12 @@
 				<version>2.18.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\resources\suites\google_suite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
 
-  
+
 </project>
