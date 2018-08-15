@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import com.google.gmodule.googlesearch.GoogleSearchBasePage;
 
@@ -23,7 +24,8 @@ public class GoogleResultPage extends GoogleSearchBasePage {
 
 	/**
 	 * constructor to initialize google results page
-	 * @param driver 
+	 * 
+	 * @param driver
 	 */
 	public GoogleResultPage(WebDriver driver) {
 		setWebDriver(driver);
@@ -36,8 +38,12 @@ public class GoogleResultPage extends GoogleSearchBasePage {
 	 * @return List<WebElement>
 	 */
 	public List<WebElement> getGoogleSearchResultsList() {
-		wait = new WebDriverWait(getWebDriver(), 10);
-		wait.until(ExpectedConditions.elementToBeClickable(resultStats));
-		return resultStatsList;
+		if (isElementPresent(resultStats)) {
+			return resultStatsList;
+		} else {
+			Assert.fail("Element not present");
+			return null;
+		}
+
 	}
 }

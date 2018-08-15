@@ -1,11 +1,15 @@
 package com.google.gmodule.googlesearch.gsr;
+
 import java.util.HashMap;
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import com.google.gmodule.googlesearch.TestListener;
 
 /**
  * Test to verify google search result. The test data is from
@@ -14,6 +18,7 @@ import org.testng.annotations.Test;
  * @author G Sunil kumar
  *
  */
+@Listeners(TestListener.class)
 public class GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result extends GoogleSearchResultBaseTest {
 
 	private Object[][] hashMapObjArray;
@@ -41,8 +46,8 @@ public class GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result extends
 	}
 
 	@Test(dataProvider = "perform_Google_Search_And_Verify_Result_Data")
-	public void searchTextAndVerifyResultTest(HashMap<String,String> hashMapObj) {
-		System.out.println("googleSearchPage.getTitle() " +googleSearchPage.getTitle());
+	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
+		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains("Google"));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get("searchText"));
 		googleSearchPage.submitGoogleSearch();
