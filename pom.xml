@@ -6,12 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<hubUrl>http://192.168.0.115:5555/wd/hub</hubUrl>
-		<url></url>
-		<browser>chrome</browser>
-		<remote>true</remote>
-		<host></host>
-		<region></region>
 		<aspectj.version>1.8.10</aspectj.version>
 		<allure.version>2.3.4</allure.version>
 		<allure.maven.version>2.8</allure.maven.version>
@@ -26,9 +20,7 @@
 			<properties>
 				<remote>false</remote>
 				<browser>chrome</browser>
-				<url></url>
-				<host></host>
-				<region></region>
+				<hubUrl>http://192.168.0.115:5555/wd/hub</hubUrl>
 			</properties>
 		</profile>
 
@@ -37,9 +29,7 @@
 			<properties>
 				<remote>true</remote>
 				<browser>chrome</browser>
-				<url></url>
-				<host></host>
-				<region></region>
+				<hubUrl>http://192.168.0.115:5555/wd/hub</hubUrl>
 			</properties>
 		</profile>
 
