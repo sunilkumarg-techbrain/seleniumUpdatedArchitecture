@@ -4,16 +4,20 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.google.gmodule.googlesearch.reader.ExcelFileReader;
 import com.google.gmodule.googlesearch.reader.NotepadReader;
@@ -70,11 +74,25 @@ public class GoogleSearchBaseTest {
 	/**
 	 * method to setup the driver
 	 */
-	@BeforeMethod
-	public void testSetUp(ITestContext testContext) {
+	@BeforeMethod(alwaysRun = true)
+	@Parameters({ "remote", "browser", "hubUrl" })
+	public void testSetUp(ITestContext testContext, String remote, String browser, String hubUrl) {
 		System.setProperty("webdriver.chrome.driver",
 				googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
-		this.driver = new ChromeDriver();
+
+		if (remote.equalsIgnoreCase("false") && browser.equalsIgnoreCase("chrome")) {
+			this.driver = new ChromeDriver();
+		} else if (remote.equalsIgnoreCase("true") && browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
+			DesiredCapabilities capChrome = DesiredCapabilities.chrome();
+			try {
+				this.driver = new RemoteWebDriver(new URL(hubUrl), capChrome);
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+
 		googleSearchBasePage.setWebDriver(this.driver);
 		testContext.setAttribute("WebDriver", this.driver);
 		launchUrl();
@@ -84,7 +102,7 @@ public class GoogleSearchBaseTest {
 	/**
 	 * method to quit the browser session
 	 */
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		driver.quit();
 	}

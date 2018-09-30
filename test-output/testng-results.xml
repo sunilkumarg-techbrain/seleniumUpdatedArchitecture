@@ -1,39 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="2" failed="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Google Yahoo Page Test Suite" duration-ms="58463" started-at="2018-05-12T15:36:20Z" finished-at="2018-05-12T15:37:19Z">
+  <suite name="Default suite" duration-ms="312" started-at="2018-09-30T17:25:47Z" finished-at="2018-09-30T17:25:48Z">
     <groups>
     </groups>
-    <test name="Google Yahoo Page Test" duration-ms="58463" started-at="2018-05-12T15:36:20Z" finished-at="2018-05-12T15:37:19Z">
-      <class name="com.google.tests.GoogleHomePageTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.google.tests.GoogleHomePageTest@55f3ddb1]" name="testSetUp" is-config="true" duration-ms="11611" started-at="2018-05-12T21:06:20Z" finished-at="2018-05-12T21:06:32Z">
+    <test name="Default test" duration-ms="312" started-at="2018-09-30T17:25:47Z" finished-at="2018-09-30T17:25:48Z">
+      <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result">
+        <test-method status="FAIL" signature="testSetUp(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="testSetUp" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:47Z" finished-at="2018-09-30T22:55:47Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'remote' is required by @Configuration on method testSetUp but has not been marked @Optional or defined
+in C:\Users\Sunil kumar\AppData\Local\Temp\testng-eclipse--911131957\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'remote' is required by @Configuration on method testSetUp but has not been marked @Optional or defined
+in C:\Users\Sunil kumar\AppData\Local\Temp\testng-eclipse--911131957\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.google.tests.GoogleHomePageTest@55f3ddb1]" name="verifyGooglePageTittle" duration-ms="6977" started-at="2018-05-12T21:06:32Z" finished-at="2018-05-12T21:06:39Z">
+        <test-method status="SKIP" signature="searchTextAndVerifyResultTest(java.util.HashMap)[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="searchTextAndVerifyResultTest" duration-ms="110" started-at="2018-09-30T22:55:48Z" data-provider="perform_Google_Search_And_Verify_Result_Data" finished-at="2018-09-30T22:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchText=abc, sNo=1}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.GoogleHomePageTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="597" started-at="2018-05-12T21:06:39Z" finished-at="2018-05-12T21:06:40Z">
+        </test-method> <!-- searchTextAndVerifyResultTest -->
+        <test-method status="SKIP" signature="pageSetup()[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="pageSetup" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:48Z" finished-at="2018-09-30T22:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:48Z" finished-at="2018-09-30T22:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.google.tests.GoogleHomePageTest -->
-      <class name="com.google.tests.YahooHomePageTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.google.tests.YahooHomePageTest@523884b2]" name="testSetUp" is-config="true" duration-ms="7523" started-at="2018-05-12T21:06:40Z" finished-at="2018-05-12T21:06:47Z">
+        <test-method status="SKIP" signature="testSetUp(org.testng.ITestContext, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="testSetUp" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:48Z" finished-at="2018-09-30T22:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="verifyYahooPageTittle()[pri:0, instance:com.google.tests.YahooHomePageTest@523884b2]" name="verifyYahooPageTittle" duration-ms="30528" started-at="2018-05-12T21:06:47Z" finished-at="2018-05-12T21:07:18Z">
+        <test-method status="SKIP" signature="pageSetup()[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="pageSetup" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:48Z" finished-at="2018-09-30T22:55:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyYahooPageTittle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.tests.YahooHomePageTest@523884b2]" name="tearDown" is-config="true" duration-ms="1207" started-at="2018-05-12T21:07:18Z" finished-at="2018-05-12T21:07:19Z">
+        </test-method> <!-- pageSetup -->
+        <test-method status="SKIP" signature="searchTextAndVerifyResultTest(java.util.HashMap)[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="searchTextAndVerifyResultTest" duration-ms="0" started-at="2018-09-30T22:55:48Z" data-provider="perform_Google_Search_And_Verify_Result_Data" finished-at="2018-09-30T22:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchText=def, sNo=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTextAndVerifyResultTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result@b62fe6d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-09-30T22:55:48Z" finished-at="2018-09-30T22:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.google.tests.YahooHomePageTest -->
-    </test> <!-- Google Yahoo Page Test -->
-  </suite> <!-- Google Yahoo Page Test Suite -->
+      </class> <!-- com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,16 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.google.gmodule.googlesearch.GoogleSearchBasePage;
 
 public class GoogleResultPage extends GoogleSearchBasePage {
 
-	private WebDriverWait wait;
-	private final String GOOGLE_RESULT_PAGE_RESULT_STATS = "//*[@id='rso']//h3/a";
+	private final String GOOGLE_RESULT_PAGE_RESULT_STATS = "//*[@id='rso']//a[contains(@href,'https')]";
 
 	@FindBy(xpath = GOOGLE_RESULT_PAGE_RESULT_STATS)
 	WebElement resultStats;

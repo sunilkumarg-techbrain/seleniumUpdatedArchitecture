@@ -6,9 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
+		<hubUrl>http://192.168.0.115:5555/wd/hub</hubUrl>
 		<url></url>
 		<browser>chrome</browser>
-		<remote>false</remote>
+		<remote>true</remote>
 		<host></host>
 		<region></region>
 		<aspectj.version>1.8.10</aspectj.version>
@@ -30,6 +31,19 @@
 				<region></region>
 			</properties>
 		</profile>
+
+		<profile>
+			<id>grid</id>
+			<properties>
+				<remote>true</remote>
+				<browser>chrome</browser>
+				<url></url>
+				<host></host>
+				<region></region>
+			</properties>
+		</profile>
+
+
 	</profiles>
 
 	<dependencies>

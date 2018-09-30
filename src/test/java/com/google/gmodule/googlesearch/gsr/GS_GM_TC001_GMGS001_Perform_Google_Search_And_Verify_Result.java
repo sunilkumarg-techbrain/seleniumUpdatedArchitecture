@@ -2,6 +2,7 @@ package com.google.gmodule.googlesearch.gsr;
 
 import java.util.HashMap;
 import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -10,6 +11,9 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.google.gmodule.googlesearch.TestListener;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 
 /**
  * Test to verify google search result. The test data is from
@@ -33,7 +37,7 @@ public class GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result extends
 	/**
 	 * method to initialize pages required for the test
 	 */
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void pageSetup() {
 		googleSearchPage = new GoogleSearchPage(getDriver());
 		googleResultPage = new GoogleResultPage(getDriver());
@@ -45,13 +49,17 @@ public class GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result extends
 		return hashMapObjArray;
 	}
 
-	@Test(dataProvider = "perform_Google_Search_And_Verify_Result_Data")
+	@Test(groups = { "beforeBatchRegression" },dataProvider = "perform_Google_Search_And_Verify_Result_Data")
+	@Description("Test Description - Perform Google Search And Verify Result")
+	@Story("GS_GM_TC001_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains("Google"));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get("searchText"));
 		googleSearchPage.submitGoogleSearch();
+
 		List<WebElement> googleSearchResultList = googleResultPage.getGoogleSearchResultsList();
+
 		for (WebElement singleSearchResult : googleSearchResultList) {
 			googleSearchPage.highlight(singleSearchResult);
 			System.out.println(singleSearchResult.getAttribute("href"));
