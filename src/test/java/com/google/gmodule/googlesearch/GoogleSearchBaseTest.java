@@ -4,23 +4,19 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.google.gmodule.googlesearch.reader.ExcelFileReader;
-import com.google.gmodule.googlesearch.reader.NotepadReader;
+import com.google.gmodule.googlesearch.reader.NotepadFileReader;
+import com.google.gmodule.googlesearch.reader.ReaderFactory;
 import com.google.gmodule.googlesearch.utils.GoogleUtils;
 
 import io.qameta.allure.Allure;
@@ -32,7 +28,14 @@ import io.qameta.allure.Allure;
  *
  */
 public class GoogleSearchBaseTest {
-	protected NotepadReader notepadReader;
+
+	protected static final String WEB_DRIVER = "WebDriver";
+	protected static final String XLSX__FILE = "xlsx";
+	protected static final String TXT__FILE = "txt";
+
+	protected BrowserFactory browserFactory;
+	protected ReaderFactory readerFactory;
+	protected NotepadFileReader notepadReader;
 	protected ExcelFileReader excelFileReader;
 	private String url = "https://www.google.com";
 	private WebDriver driver;
@@ -44,9 +47,9 @@ public class GoogleSearchBaseTest {
 	 */
 	public GoogleSearchBaseTest() {
 		super();
-		notepadReader = new NotepadReader();
+		browserFactory = new BrowserFactory();
+		readerFactory = new ReaderFactory();
 		googleUtils = new GoogleUtils();
-		excelFileReader = new ExcelFileReader();
 		googleSearchBasePage = new GoogleSearchBasePage();
 	}
 
@@ -79,22 +82,9 @@ public class GoogleSearchBaseTest {
 	public void testSetUp(ITestContext testContext, String remote, String browser, String hubUrl) {
 		System.setProperty("webdriver.chrome.driver",
 				googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
-
-		if (remote.equalsIgnoreCase("false") && browser.equalsIgnoreCase("chrome")) {
-			this.driver = new ChromeDriver();
-		} else if (remote.equalsIgnoreCase("true") && browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
-			DesiredCapabilities capChrome = DesiredCapabilities.chrome();
-			try {
-				this.driver = new RemoteWebDriver(new URL(hubUrl), capChrome);
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-			}
-		}
-
+		this.driver = browserFactory.getBrowserDriver(BrowserType.valueOf(browser), remote, hubUrl);
 		googleSearchBasePage.setWebDriver(this.driver);
-		testContext.setAttribute("WebDriver", this.driver);
+		testContext.setAttribute(WEB_DRIVER, this.driver);
 		launchUrl();
 		getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	}

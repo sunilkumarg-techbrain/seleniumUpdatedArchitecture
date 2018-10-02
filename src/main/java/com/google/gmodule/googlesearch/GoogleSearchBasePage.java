@@ -1,9 +1,7 @@
 package com.google.gmodule.googlesearch;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -18,8 +16,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.google.gmodule.googlesearch.utils.GoogleUtils;
-
-import io.qameta.allure.Allure;
 
 public class GoogleSearchBasePage {
 	protected WebDriver driver;

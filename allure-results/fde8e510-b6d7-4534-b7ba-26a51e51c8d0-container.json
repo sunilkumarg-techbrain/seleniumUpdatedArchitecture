@@ -1,0 +1,1 @@
+{"uuid":"fde8e510-b6d7-4534-b7ba-26a51e51c8d0","name":"com.google.gmodule.googlesearch.GoogleSearchBaseTest.tearDown","description":"","start":1538501097148,"stop":1538501098492,"children":["1f76802b-36f3-43a0-9179-0e569d955f37"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1538501097148,"stop":1538501098492}]}

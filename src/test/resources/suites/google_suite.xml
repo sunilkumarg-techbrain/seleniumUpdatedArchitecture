@@ -2,14 +2,14 @@
 <suite name="Google Search Page Test Suite">
 	<listeners>
 		<listener class-name="com.google.gmodule.googlesearch.TestListener" />
+		<listener
+			class-name="com.google.gmodule.googlesearch.AnnotationTransformerListener" />
 	</listeners>
 
-	<parameter name="browser" value="chrome" />
-	<parameter name="remote" value="false" />
 	<parameter name="hubUrl" value="http://192.168.0.115:5555/wd/hub" />
 
 
-	<test name="GS_GM_TC002_GMGS001 Perform_Google_Search">
+	<test name="Google Search Module Test Suite">
 
 		<groups>
 			<run>
@@ -19,14 +19,11 @@
 		<classes>
 			<class
 				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result" />
-			<class
-				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search" />
-			<class
-				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https" />
-			<class
-				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages" />
-			<class
-				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page" />
+			<!-- <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search" 
+				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https" 
+				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages" 
+				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page" 
+				/> -->
 		</classes>
 	</test>
 </suite>

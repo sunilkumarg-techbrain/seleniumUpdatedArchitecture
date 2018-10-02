@@ -1,18 +1,9 @@
 package com.google.gmodule.googlesearch;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import io.qameta.allure.Allure;
 
 public class TestListener extends GoogleSearchBaseTest implements ITestListener {
 

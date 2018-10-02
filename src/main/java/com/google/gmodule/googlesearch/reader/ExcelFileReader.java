@@ -3,25 +3,19 @@ package com.google.gmodule.googlesearch.reader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelFileReader {
-	
+public class ExcelFileReader implements Reader {
+
 	private final String DATA_FOLDER = "data";
 	private final String DATA_FILE_EXT = ".xlsx";
 	private String filePath;
 	private String sep;
-	private String baseProjectPath ;
-	private StringBuffer buff ;
+	private String baseProjectPath;
+	private StringBuffer buff;
 	private String cellData;
 	private int totalCols;
 	private int totalRows;
@@ -41,9 +35,9 @@ public class ExcelFileReader {
 	public ExcelFileReader() {
 	}
 
-	
 	/**
-	 * method to get file path 
+	 * method to get file path
+	 * 
 	 * @return String
 	 */
 	public String getFilePath(Class<? extends Object> testClass) {
@@ -54,11 +48,11 @@ public class ExcelFileReader {
 		buff.append("src\\test\\resources\\");
 		buff.append(DATA_FOLDER);
 		buff.append(sep);
-		buff.append(testClass.getName().replace(".",sep));
+		buff.append(testClass.getName().replace(".", sep));
 		buff.append(DATA_FILE_EXT);
-      return buff.toString();		
+		return buff.toString();
 	}
-	
+
 	/**
 	 * method to read excel table and put it into a two dimensional table array
 	 * 
@@ -67,7 +61,7 @@ public class ExcelFileReader {
 	 * @return
 	 */
 	public Object[][] getTableArray(Class<? extends Object> testClass, String sheetName) {
-        filePath = getFilePath(testClass); 
+		filePath = getFilePath(testClass);
 		try {
 			excelFile = new FileInputStream(filePath);
 			excelWBook = new XSSFWorkbook(excelFile);
@@ -94,6 +88,7 @@ public class ExcelFileReader {
 
 	/**
 	 * method to get individual cell data
+	 * 
 	 * @param rowNum
 	 * @param colNum
 	 * @return
@@ -122,5 +117,13 @@ public class ExcelFileReader {
 		return rowCount;
 	}
 
-	
+	/**
+	 * method to read file
+	 */
+	@Override
+	public String read() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
