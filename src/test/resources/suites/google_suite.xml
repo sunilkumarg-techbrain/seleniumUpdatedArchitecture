@@ -19,11 +19,14 @@
 		<classes>
 			<class
 				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result" />
-			<!-- <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search" 
-				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https" 
-				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages" 
-				/> <class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page" 
-				/> -->
+			<class
+				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search" />
+			<class
+				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https" />
+			<class
+				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages" />
+			<class
+				name="com.google.gmodule.googlesearch.gsr.GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page" />
 		</classes>
 	</test>
 </suite>
