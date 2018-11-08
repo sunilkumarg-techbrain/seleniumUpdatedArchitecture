@@ -67,14 +67,13 @@ public class GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result extends
 	 * @param hashMapObj
 	 */
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
+		System.out.println("Test Case - " + getClass().getSimpleName()
+				+ " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
 		googleSearchPage.submitGoogleSearch();
-	
-
-		List<WebElement> googleSearchResultList = googleResultPage.getGoogleSearchResultsList();
-
+			List<WebElement> googleSearchResultList = googleResultPage.getGoogleSearchResultsList();
 		for (WebElement singleSearchResult : googleSearchResultList) {
 			googleSearchPage.highlight(singleSearchResult);
 			System.out.println(singleSearchResult.getAttribute(HREF));

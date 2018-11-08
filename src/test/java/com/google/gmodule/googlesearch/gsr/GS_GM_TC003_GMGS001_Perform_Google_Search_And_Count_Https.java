@@ -34,7 +34,7 @@ public class GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https extends G
 	private Object[][] hashMapObjArray;
 
 	/**
-	 * constructor to initialize google search verify result test
+	 * Constructor to initialize google search verify result test
 	 */
 	public GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https() {
 		super();
@@ -42,7 +42,7 @@ public class GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https extends G
 	}
 
 	/**
-	 * method to initialize pages required for the test
+	 * Method to initialize pages required for the test
 	 */
 	@BeforeMethod(alwaysRun = true)
 	public void pageSetup() {
@@ -62,11 +62,12 @@ public class GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https extends G
 	@Description("Test Description - Perform Google Search And Count Https")
 	@Story("GS_GM_TC003_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
+		System.out.println("Test Case - " + getClass().getSimpleName()
+				+ " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
 		googleSearchPage.submitGoogleSearch();
-
 		googleSearchResultList = googleResultPage.getGoogleSearchResultsList();
 		httpsCount =0;
 		for (WebElement singleSearchResult : googleSearchResultList) {

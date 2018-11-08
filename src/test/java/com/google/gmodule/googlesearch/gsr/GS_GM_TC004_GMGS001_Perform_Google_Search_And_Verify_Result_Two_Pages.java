@@ -61,6 +61,8 @@ public class GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pag
 	@Description("Test Description - Perform Google Search And Verify Result Two Pages")
 	@Story("GS_GM_TC004_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
+		System.out.println("Test Case - " + getClass().getSimpleName()
+				+ " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));

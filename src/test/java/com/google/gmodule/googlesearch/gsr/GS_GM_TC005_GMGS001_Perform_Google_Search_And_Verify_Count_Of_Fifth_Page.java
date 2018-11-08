@@ -65,11 +65,12 @@ public class GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth
 	@Description("Test Description - Perform Google Search And Verify Count Of Fifth Page")
 	@Story("GS_GM_TC005_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
+		System.out.println("Test Case - " + getClass().getSimpleName()
+				+ " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
 		googleSearchPage.submitGoogleSearch();
-
 		googleSearchPage.clickPage5Button();
 		List<WebElement> googleSearchResultList = googleResultPage.getGoogleSearchResultsList();
 		httpsCount = 0;
@@ -81,7 +82,6 @@ public class GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth
 					| singleSearchResult.getAttribute(HREF).contains(HTTP));
 		}
 		System.out.println("Count of https ::" + httpsCount);
-
 	}
 
 }

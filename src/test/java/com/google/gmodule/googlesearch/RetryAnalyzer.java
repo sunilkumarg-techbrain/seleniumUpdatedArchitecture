@@ -11,7 +11,7 @@ import org.testng.ITestResult;
 public class RetryAnalyzer implements IRetryAnalyzer {
 
 	private int counter = 0;
-	private int retryLimit = 2;
+	private int retryLimit = 3;
 
 	/**
 	 * Constructor for RetryAnalyzer

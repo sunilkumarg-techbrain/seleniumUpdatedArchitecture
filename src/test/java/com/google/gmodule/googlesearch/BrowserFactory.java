@@ -5,6 +5,7 @@ import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -16,18 +17,19 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  *
  */
 public class BrowserFactory {
-
+	private DesiredCapabilities capFirefox;
+	private ThreadLocal<RemoteWebDriver> remoteDriver = new ThreadLocal<>();
+	private ThreadLocal<WebDriver> localDriver = new ThreadLocal<>();
 	protected GoogleSearchBasePage googleSearchBasePage;
 	protected static final String CHROME = "chrome";
 	protected static final String FIREFOX = "firefox";
 	protected static final String WEB_DRIVER_CHROME_DRIVER = "webdriver.chrome.driver";
 	protected static final String FALSE = "false";
 	protected static final String TRUE = "true";
-	private WebDriver driver = null;
 	private DesiredCapabilities capChrome;
 
 	/**
-	 * constructor to initialize browser factory elements
+	 * Constructor to initialize browser factory elements
 	 * 
 	 * @param driver
 	 */
@@ -37,7 +39,7 @@ public class BrowserFactory {
 	}
 
 	/**
-	 * method to get browser driver
+	 * Method to get local browser driver
 	 * 
 	 * @param browserType
 	 * @param remote
@@ -45,44 +47,111 @@ public class BrowserFactory {
 	 * @return
 	 */
 	public WebDriver getBrowserDriver(BrowserType browserType, String remote, String hubUrl) {
+		if (remote.equalsIgnoreCase(TRUE)) {
+			return getRemoteBrowserDriver(browserType, hubUrl);
+		} else {
+			return getLocalBrowserDriver(browserType, hubUrl);
+		}
+	}
 
+	/**
+	 * Method to get remote driver
+	 * 
+	 * @return
+	 */
+	public RemoteWebDriver getRemoteDriver() {
+		return remoteDriver.get();
+	}
+
+	/**
+	 * Method to set remote driver
+	 * 
+	 * @param remoteDriver
+	 */
+	public void setRemoteDriver(RemoteWebDriver remoteDriver) {
+		this.remoteDriver.set(remoteDriver);
+	}
+
+	/**
+	 * Method to get local driver
+	 * 
+	 * @return
+	 */
+	public WebDriver getLocalDriver() {
+		return localDriver.get();
+	}
+
+	/**
+	 * Method to set local driver
+	 * 
+	 * @param localDriver
+	 */
+	public void setLocalDriver(WebDriver localDriver) {
+		this.localDriver.set(localDriver);
+	}
+
+	/**
+	 * Method to get local browser driver
+	 * 
+	 * @param browserType
+	 * @param remote
+	 * @param hubUrl
+	 * @return
+	 */
+	public WebDriver getRemoteBrowserDriver(BrowserType browserType, String hubUrl) {
 		switch (browserType) {
 		case FIREFOX:
+			capFirefox = DesiredCapabilities.firefox();
+			try {
+				setRemoteDriver(new RemoteWebDriver(new URL(hubUrl), capFirefox));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 			break;
-
 		case CHROME:
-			if (remote.equalsIgnoreCase(FALSE)) {
-				this.driver = new ChromeDriver();
-			} else if (remote.equalsIgnoreCase(TRUE)) {
-				System.setProperty(WEB_DRIVER_CHROME_DRIVER,
-						googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
-				capChrome = DesiredCapabilities.chrome();
-				try {
-					this.driver = new RemoteWebDriver(new URL(hubUrl), capChrome);
-				} catch (MalformedURLException e) {
-					e.printStackTrace();
-				}
+			System.setProperty(WEB_DRIVER_CHROME_DRIVER,
+					googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
+			capChrome = DesiredCapabilities.chrome();
+			try {
+				setRemoteDriver(new RemoteWebDriver(new URL(hubUrl), capChrome));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
 			}
 			break;
-
 		default:
-			if (remote.equalsIgnoreCase(FALSE)) {
-				this.driver = new ChromeDriver();
-			} else if (remote.equalsIgnoreCase(TRUE)) {
-				System.setProperty(WEB_DRIVER_CHROME_DRIVER,
-						googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
-				capChrome = DesiredCapabilities.chrome();
-				try {
-					this.driver = new RemoteWebDriver(new URL(hubUrl), capChrome);
-				} catch (MalformedURLException e) {
-					e.printStackTrace();
-				}
+			System.setProperty(WEB_DRIVER_CHROME_DRIVER,
+					googleSearchBasePage.getBaseProjectPath() + "src\\test\\resources\\drivers\\chromedriver.exe");
+			capChrome = DesiredCapabilities.chrome();
+			try {
+				setRemoteDriver(new RemoteWebDriver(new URL(hubUrl), capChrome));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
 			}
-
 			break;
-
 		}
+		return getRemoteDriver();
+	}
 
-		return driver;
+	/**
+	 * Method to get local browser driver
+	 * 
+	 * @param browserType
+	 * @param remote
+	 * @param hubUrl
+	 * @return
+	 */
+	public WebDriver getLocalBrowserDriver(BrowserType browserType, String hubUrl) {
+		switch (browserType) {
+		case FIREFOX:
+			setLocalDriver(new FirefoxDriver());
+			break;
+		case CHROME:
+			setLocalDriver(new ChromeDriver());
+			break;
+		default:
+			setLocalDriver(new ChromeDriver());
+			break;
+		}
+		return getLocalDriver();
 	}
 }

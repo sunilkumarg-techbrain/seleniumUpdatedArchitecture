@@ -43,7 +43,7 @@ public class GoogleSearchBaseTest {
 	protected GoogleUtils googleUtils;
 
 	/**
-	 * constructor to initialize base test page
+	 * Constructor to initialize base test page
 	 */
 	public GoogleSearchBaseTest() {
 		super();
@@ -54,7 +54,7 @@ public class GoogleSearchBaseTest {
 	}
 
 	/**
-	 * method to capture screenshot by passing the driver and method name as
+	 * Method to capture screenshot by passing the driver and method name as
 	 * parameters
 	 * 
 	 * @param driver
@@ -75,7 +75,7 @@ public class GoogleSearchBaseTest {
 	}
 
 	/**
-	 * method to setup the driver
+	 * Method to setup the driver
 	 */
 	@BeforeMethod(alwaysRun = true)
 	@Parameters({ "remote", "browser", "hubUrl" })
@@ -90,7 +90,7 @@ public class GoogleSearchBaseTest {
 	}
 
 	/**
-	 * method to quit the browser session
+	 * Method to quit the browser session
 	 */
 	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
@@ -98,14 +98,14 @@ public class GoogleSearchBaseTest {
 	}
 
 	/**
-	 * method to get driver
+	 * Method to get driver
 	 */
 	public WebDriver getDriver() {
 		return this.driver;
 	}
 
 	/**
-	 * method to launch url
+	 * Method to launch url
 	 * 
 	 * @param driver
 	 * @param url

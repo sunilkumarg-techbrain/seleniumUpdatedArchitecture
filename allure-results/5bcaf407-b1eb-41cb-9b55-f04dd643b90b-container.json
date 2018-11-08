@@ -1,1 +1,0 @@
-{"uuid":"5bcaf407-b1eb-41cb-9b55-f04dd643b90b","name":"com.google.gmodule.googlesearch.GoogleSearchBaseTest.testSetUp","description":"","start":1538501230238,"stop":1538501236639,"children":["e9ef24d6-3b98-4c5a-9fff-10e2324bd9b4"],"befores":[{"name":"testSetUp","status":"passed","stage":"finished","description":"","start":1538501230238,"stop":1538501236638}]}
