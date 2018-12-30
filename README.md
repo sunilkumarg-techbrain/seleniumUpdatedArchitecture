@@ -19,3 +19,4 @@ Pages created using findby and initialised in the constructor using page factory
 9. Retry Listener which retries 2 times if the sceanrio fails due to environment or other issues. 
 10. BAT files to execute locally and in grid and generate allure report. This is one click solution for execution and generation of allure report. 
 11. Browser factory is provided to select required type of browser and remote grid option. Reader factory is provided to select the file reader baased on the type of file passed in the test.  
+12. Parallel execution is provided which allows execution of multiple browser instances thereby reducing the execution to time. Set the number of threads in google-suite.xml to 2 and run the suite and test cases are executed parallelly and results are generated in allure. 
