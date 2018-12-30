@@ -1,7 +1,7 @@
 # SeleniumUpdatedArchitecture using testng 
 Google Search Module Test Suite
 download the project and run 
-mvn clean install usign eclipse or in command line 
+mvn clean install using eclipse or in command line 
 or 
 double click mvn-local.bat file for execution in local and generation of allure report
 double click mvn-remote.bat file for execution in grid and generation of allure report
