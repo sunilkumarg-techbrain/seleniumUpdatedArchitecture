@@ -14,7 +14,7 @@ public class GoogleSearchPage extends GoogleSearchBasePage {
 
 	private final String GOOGLE_SEARCH_PAGE_PAGE_5_BUTTON = "//*[contains(@id,'nav')]/tbody/tr/td[6]/a";
 	private final String GOOGLE_SEARCH_PAGE_PAGE_2_BUTTON = "//*[contains(@id,'nav')]/tbody/tr/td[3]/a";
-	private final String GOOGLE_SEARCH_PAGE_GOOGLE_TEXT_BOX = "//*[@id='lst-ib']";
+	private final String GOOGLE_SEARCH_PAGE_GOOGLE_TEXT_BOX = "//*[@name='q']";
 	private final String GOOGLE_SEARCH_PAGE_GOOGLE_SEARCH_BUTTON = "//*[@id='tsf']/div[2]/div[3]/center/input[1]";
 	private final String GOOGLE_SEARCH_PAGE_AREA_OUTSIDE_SEARCH_BOX = "//*[@id='body']/center";
 	private final String GOOGLE_SEARCH_PAGE_RESULT_STATS = "//*[@id='rso']//h3/a";

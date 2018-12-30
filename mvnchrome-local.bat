@@ -1,5 +1,7 @@
 ECHO ON
 
+CALL Powershell.exe -executionpolicy remotesigned -File  allure-results-folder-deletion.ps1
+
 IF EXIST target\allure-reports\chrome\history (
                 IF EXIST history\chrome\history (
                                 RMDIR history\chrome\history /S /Q

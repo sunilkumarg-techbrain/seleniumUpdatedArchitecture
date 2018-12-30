@@ -64,7 +64,7 @@ public class GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pag
 		System.out.println("Test Case - " + getClass().getSimpleName()
 				+ " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
-		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
+		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE), " Assertion status for googleSearchPage getTitle() - "+ " Actual page title - "+ googleSearchPage.getTitle() + " Expected page title -" + GOOGLE_PAGE_TITLE);
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
 		googleSearchPage.submitGoogleSearch();
 
@@ -73,8 +73,8 @@ public class GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pag
 		for (WebElement singleSearchResult : googleSearchResultList) {
 			googleSearchPage.highlight(singleSearchResult);
 			System.out.println(singleSearchResult.getAttribute("href"));
-			Assert.assertTrue(singleSearchResult.getAttribute("href").contains("https://")
-					| singleSearchResult.getAttribute("href").contains("http://"));
+			Assert.assertTrue(singleSearchResult.getAttribute(HREF).contains(HTTPS)
+					| singleSearchResult.getAttribute(HREF).contains(HTTP), " Assertion status for singleSearchResult.getAttribute(HREF) - "+ " Actual HREF - " + singleSearchResult.getAttribute(HREF) + " Expected HREF - "+ HTTP+ " , "+ HTTPS);
 		}
 		googleSearchPage.clickPage2Button();
 		googleSearchResultList.clear();

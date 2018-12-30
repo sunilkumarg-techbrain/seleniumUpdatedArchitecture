@@ -55,20 +55,23 @@ public class GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth
 	 */
 	@DataProvider(name = "perform_Google_Search_And_Verify_Result_Data")
 	public Object[][] perform_Google_Search_And_Verify_Result_Data() {
-		notepadReader =(NotepadFileReader) readerFactory.getReader(TXT__FILE);
+		notepadReader = (NotepadFileReader) readerFactory.getReader(TXT__FILE);
 		hashMapObjArray = notepadReader.createHashMapObj(this.getClass(), DATA_SET_1);
 		return hashMapObjArray;
 	}
 
-	@Test(groups = { "beforeBatchRegression" }, priority = 0, description = "Perform Google Search And Verify Count Of Fifth Page", dataProvider = "perform_Google_Search_And_Verify_Result_Data")
+	@Test(groups = {
+			"beforeBatchRegression" }, priority = 0, description = "Perform Google Search And Verify Count Of Fifth Page", dataProvider = "perform_Google_Search_And_Verify_Result_Data")
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Test Description - Perform Google Search And Verify Count Of Fifth Page")
 	@Story("GS_GM_TC005_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
-		System.out.println("Test Case - " + getClass().getSimpleName()
-				+ " with Thread Id:- " + Thread.currentThread().getId());
+		System.out.println(
+				"Test Case - " + getClass().getSimpleName() + " with Thread Id:- " + Thread.currentThread().getId());
 		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
-		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE));
+		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE),
+				" Assertion status for googleSearchPage getTitle() - " + " Actual page title - "
+						+ googleSearchPage.getTitle() + " Expected page title -" + GOOGLE_PAGE_TITLE);
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
 		googleSearchPage.submitGoogleSearch();
 		googleSearchPage.clickPage5Button();
@@ -78,10 +81,13 @@ public class GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth
 			httpsCount++;
 			googleSearchPage.highlight(singleSearchResult);
 			System.out.println(singleSearchResult.getAttribute(HREF));
-			Assert.assertTrue(singleSearchResult.getAttribute(HREF).contains(HTTPS)
-					| singleSearchResult.getAttribute(HREF).contains(HTTP));
+			Assert.assertTrue(
+					singleSearchResult.getAttribute(HREF).contains(HTTPS)
+							| singleSearchResult.getAttribute(HREF).contains(HTTP),
+					" Assertion status for singleSearchResult.getAttribute(HREF) - " + " Actual HREF - "
+							+ singleSearchResult.getAttribute(HREF) + " Expected HREF - " + HTTP + " , " + HTTPS);
+			System.out.println("Count of https ::" + httpsCount);
 		}
-		System.out.println("Count of https ::" + httpsCount);
 	}
 
 }

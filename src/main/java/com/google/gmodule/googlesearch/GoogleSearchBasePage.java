@@ -65,7 +65,7 @@ public class GoogleSearchBasePage {
 		actions.moveToElement(element);
 		actions.perform();
 		JavascriptExecutor js = (JavascriptExecutor) getWebDriver();
-		js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 4px solid blue;');", element);
+		js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid blue;');", element);
 	}
 
 	/**
