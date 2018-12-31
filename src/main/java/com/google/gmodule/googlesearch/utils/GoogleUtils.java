@@ -1,9 +1,6 @@
 package com.google.gmodule.googlesearch.utils;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import com.google.gmodule.googlesearch.GoogleSearchBasePage;
 
 public class GoogleUtils {
 

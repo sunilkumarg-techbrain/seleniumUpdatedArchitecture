@@ -56,12 +56,12 @@ public class GS_GM_TC002_GMGS001_Perform_Google_Search extends GoogleSearchResul
 	@Description("Test Description - Perform Google Search")
 	@Story("GS_GM_TC002_GMGS001")
 	public void searchTextAndVerifyResultTest(HashMap<String, String> hashMapObj) {
-		System.out.println("Test Case - " + getClass().getSimpleName()
+		log("Test Case - " + getClass().getSimpleName()
 				+ " with Thread Id:- " + Thread.currentThread().getId());
-		System.out.println("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
+		log("googleSearchPage.getTitle() " + googleSearchPage.getTitle());
 		Assert.assertTrue(googleSearchPage.getTitle().contains(GOOGLE_PAGE_TITLE), " Assertion status for googleSearchPage getTitle() - "+ " Actual page title - "+ googleSearchPage.getTitle() + " Expected page title -" + GOOGLE_PAGE_TITLE);
 		googleSearchPage.enterGoogleSearchText(hashMapObj.get(GOOGLE_PAGE_SEARCH_TEXT));
-		googleSearchPage.submitGoogleSearch();
+		googleSearchPage.submitGoogleSearch(getScreenshotOnSuccess(),this.getClass().getSimpleName());
 
 	}
 }

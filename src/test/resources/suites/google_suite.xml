@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Google Search Page Parallel Test Suite" parallel="tests" thread-count="5" >
+<suite name="Google Search Page Parallel Test Suite" parallel="tests" thread-count="1" >
 	<listeners>
 		<listener class-name="com.google.gmodule.googlesearch.TestListener" />
 		<listener
@@ -9,6 +9,8 @@
 	<parameter name="hubUrl" value="http://192.168.0.115:5555/wd/hub" />
 	<parameter name="remote" value="false" />
 	<parameter name="browser" value="CHROME" />
+	<parameter name="screenshotOnSuccess" value="on" />
+	
 
 	<test name="Google Search Module Parallel Test Suite - thread 1">
 		<groups>
@@ -21,7 +23,7 @@
 		</classes>
 	</test>
 	
-	<test name="Google Search Module Parallel Test Suite - thread 2">
+	<!-- <test name="Google Search Module Parallel Test Suite - thread 2">
 		<groups>
 			<run>
 				<include name="beforeBatchRegression" />
@@ -63,6 +65,6 @@
 		<classes>
 			<class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page" />
 		</classes>
-	</test>
+	</test> -->
 	
 </suite>

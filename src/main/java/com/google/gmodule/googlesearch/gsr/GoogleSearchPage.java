@@ -90,10 +90,12 @@ public class GoogleSearchPage extends GoogleSearchBasePage {
 	 * @param driver
 	 * @return
 	 */
-	public GoogleSearchPage submitGoogleSearch() {
+	public GoogleSearchPage submitGoogleSearch(String screenshotOnSuccess, String methodName) {
 		if (isElementPresent(googleTextBox)) {
+			captureScreenshotOfEveryScreen(screenshotOnSuccess,methodName);
 			googleTextBox.submit();
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			captureScreenshotOfEveryScreen(screenshotOnSuccess,methodName);
 		}
 		return this;
 	}
