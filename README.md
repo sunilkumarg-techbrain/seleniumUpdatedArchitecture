@@ -1,4 +1,4 @@
-# SeleniumUpdatedArchitecture using testng 
+# SeleniumUpdatedArchitecture using testng, maven, allure report and parallel execution  
 Google Search Module Test Suite
 download the project and run 
 mvn clean install using eclipse or in command line 
