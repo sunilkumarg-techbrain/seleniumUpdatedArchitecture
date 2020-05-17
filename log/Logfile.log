@@ -470,3 +470,743 @@
 22:16:01 - <searchTextAndVerifyResultTest> https://www.discoverdef.com/def-overview/faq/
 22:16:01 - <searchTextAndVerifyResultTest> https://fosterfuels.com/blog/when-should-i-change-my-diesel-exhaust-fluid-2/
 22:16:02 - <searchTextAndVerifyResultTest> https://www.cummins.com/news/2016/01/04/5-answers-about-diesel-exhaust-fluid
+22:24:32 - Deleting previously exisitng screenshot directories ----
+22:24:32 - getScreenshotFolderLocation() - C:\Users\Sunil kumar\workspace2\SeleniumJenkinsAllure_V1.1\..\..\Screenshots\
+22:24:58 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result with Thread Id:- 10
+22:24:58 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:25:05 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=DPk5H8bdNx8
+22:25:06 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:25:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:25:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:25:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:25:09 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=CvxZqLc3_nI
+22:25:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:25:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=xrD2tpgpLCE
+22:25:11 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:25:12 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152311234902913024
+22:25:13 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:25:13 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152984705047912448?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:25:14 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y3fjtH
+22:25:15 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152979593042808832?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:25:15 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y1m0ww
+22:25:16 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152974083082129408?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:25:16 - <searchTextAndVerifyResultTest> https://abcn.ws/32GxB7F
+22:25:17 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:25:17 - <searchTextAndVerifyResultTest> https://abcn.ws/2XZZLqI
+22:25:18 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323/video/1
+22:25:18 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:25:19 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y590G9
+22:25:20 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905/photo/1
+22:25:20 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:25:21 - <searchTextAndVerifyResultTest> https://abc.go.com/
+22:25:21 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:crsfz-iJGfQJ:https://abc.go.com/+&cd=17&hl=en&ct=clnk&gl=in
+22:25:22 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+22:25:22 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=18&hl=en&ct=clnk&gl=in
+22:25:23 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/man-charged-with-murdering-82yo-woman-in-logan/11329830
+22:25:24 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/mack-horton-refuses-to-share-podium-with-sun-yang-after-final/11329842
+22:25:24 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/1000-firefighters-battle-wildfires-central-portugal-64467015
+22:25:25 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+22:25:25 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=26&hl=en&ct=clnk&gl=in
+22:25:26 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwjAk9-QvcbjAhXJvY8KHW2yCf8QHzAZegQIARAF
+22:25:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Walt_Disney_Television
+22:25:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+22:25:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(by_U.S._state)
+22:25:28 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(table)
+22:25:28 - <searchTextAndVerifyResultTest> https://www.abc.org.uk/
+22:25:29 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QPvGmeE3_T4J:https://www.abc.org.uk/+&cd=27&hl=en&ct=clnk&gl=in
+22:25:29 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.abc.org.uk/+abc&tbo=1&sa=X&ved=2ahUKEwjAk9-QvcbjAhXJvY8KHW2yCf8QHzAaegQIBBAF
+22:25:30 - <searchTextAndVerifyResultTest> https://www.groundedreason.com/watch-abc-without-cable/
+22:25:30 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/ABC_News
+22:25:31 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/ABC_News
+22:25:31 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/Alphabet_song
+22:25:32 - <searchTextAndVerifyResultTest> https://nowiknow.com/and-the-27th-letter-of-the-alphabet/
+22:25:32 - <searchTextAndVerifyResultTest> https://www.abcmartinfry.com/
+22:25:33 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:BUrs0aYf1nIJ:https://www.abcmartinfry.com/+&cd=47&hl=en&ct=clnk&gl=in
+22:25:44 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result with Thread Id:- 10
+22:25:44 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:25:49 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=NPM40ey1OHQ
+22:25:49 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=c6C0IzCO074
+22:25:50 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=Sq2MXr97xDc
+22:25:51 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=RTXAHEotAxk
+22:25:52 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=yMzyleT2FqY
+22:25:52 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=W4XiSFyYRE8
+22:25:53 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=DRjWU5BdO-g
+22:25:54 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=M8Pps2fA964
+22:25:55 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=cnwSEf9kkLg
+22:25:55 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=2W2vhEWeDbM
+22:25:56 - <searchTextAndVerifyResultTest> https://news.pickuptrucks.com/2014/04/top-10-facts-about-diesel-exhaust-fluid.html
+22:25:57 - <searchTextAndVerifyResultTest> https://trucktanks.com/def-diesel-exhaust-fluid-faqs/
+22:25:57 - <searchTextAndVerifyResultTest> https://www.rdoequipment.com/rdo-news/what-happens-when-good-diesel-exhaust-fluid-goes-bad
+22:25:58 - <searchTextAndVerifyResultTest> https://www.discoverdef.com/def-overview/faq/
+22:25:59 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid
+22:25:59 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:YREcRPND-YoJ:https://en.wikipedia.org/wiki/Diesel_exhaust_fluid+&cd=19&hl=en&ct=clnk&gl=in
+22:26 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/Diesel_exhaust_fluid+def&tbo=1&sa=X&ved=2ahUKEwipstylvcbjAhUHH48KHcNkDgIQHzASegQIARAF
+22:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Chemistry
+22:26:01 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Operation_in_winter_time
+22:26:01 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Storage
+22:26:02 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/def
+22:26:02 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:-MvVjCpx0j0J:https://www.dictionary.com/browse/def+&cd=20&hl=en&ct=clnk&gl=in
+22:26:03 - <searchTextAndVerifyResultTest> https://www.urbandictionary.com/define.php?term=def
+22:26:03 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:FZOvwqxTrxEJ:https://www.urbandictionary.com/define.php%3Fterm%3Ddef+&cd=21&hl=en&ct=clnk&gl=in
+22:26:04 - <searchTextAndVerifyResultTest> https://www.merriam-webster.com/dictionary/def
+22:26:04 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:E2kzA1_qmkIJ:https://www.merriam-webster.com/dictionary/def+&cd=22&hl=en&ct=clnk&gl=in
+22:26:05 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.merriam-webster.com/dictionary/def+def&tbo=1&sa=X&ved=2ahUKEwipstylvcbjAhUHH48KHcNkDgIQHzAVegQIBxAF
+22:26:06 - <searchTextAndVerifyResultTest> https://en.wiktionary.org/wiki/def
+22:26:06 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:VatCagMPvaYJ:https://en.wiktionary.org/wiki/def+&cd=27&hl=en&ct=clnk&gl=in
+22:26:07 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wiktionary.org/wiki/def+def&tbo=1&sa=X&ved=2ahUKEwipstylvcbjAhUHH48KHcNkDgIQHzAaegQIAhAF
+22:26:07 - <searchTextAndVerifyResultTest> https://dictionary.cambridge.org/dictionary/english/def
+22:26:08 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QpOA3ckVIRQJ:https://dictionary.cambridge.org/dictionary/english/def+&cd=28&hl=en&ct=clnk&gl=in
+22:26:08 - <searchTextAndVerifyResultTest> https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf
+22:26:09 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Wy552FmZZnQJ:https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf+&cd=29&hl=en&ct=clnk&gl=in
+22:26:09 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf+def&tbo=1&sa=X&ved=2ahUKEwipstylvcbjAhUHH48KHcNkDgIQHzAcegQIBhAG
+22:26:10 - <searchTextAndVerifyResultTest> https://www.yara.com/chemical-and-environmental-solutions/diesel-exhaust-fluid/
+22:26:10 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:sMsR7lt0e6IJ:https://www.yara.com/chemical-and-environmental-solutions/diesel-exhaust-fluid/+&cd=30&hl=en&ct=clnk&gl=in
+22:26:19 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC002_GMGS001_Perform_Google_Search with Thread Id:- 10
+22:26:19 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:26:31 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC002_GMGS001_Perform_Google_Search with Thread Id:- 10
+22:26:31 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:26:43 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https with Thread Id:- 10
+22:26:43 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:26:49 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=DPk5H8bdNx8
+22:26:49 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:26:50 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:26:51 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:26:51 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:26:52 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:26:53 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=xrD2tpgpLCE
+22:26:53 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:26:54 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152311234902913024
+22:26:55 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+22:26:56 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:26:56 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152984705047912448?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:26:57 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y3fjtH
+22:26:57 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152979593042808832?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:26:58 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y1m0ww
+22:26:59 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152974083082129408?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:26:59 - <searchTextAndVerifyResultTest> https://abcn.ws/32GxB7F
+22:27 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27 - <searchTextAndVerifyResultTest> https://abcn.ws/2XZZLqI
+22:27:01 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323/video/1
+22:27:01 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:02 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y590G9
+22:27:02 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905/photo/1
+22:27:03 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:27:04 - <searchTextAndVerifyResultTest> https://abc.go.com/
+22:27:04 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:crsfz-iJGfQJ:https://abc.go.com/+&cd=17&hl=en&ct=clnk&gl=in
+22:27:05 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/man-charged-with-murdering-82yo-woman-in-logan/11329830
+22:27:05 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/mack-horton-refuses-to-share-podium-with-sun-yang-after-final/11329842
+22:27:06 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/1000-firefighters-battle-wildfires-central-portugal-64467015
+22:27:06 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/feeling-blue-oregon-students-mental-health-days-64470353
+22:27:07 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Technology/wireStory/teen-climate-activist-normandys-freedom-prize-64469914
+22:27:08 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/uk-navy-heard-audio-thwart-iran-ship-seizure-64467132
+22:27:08 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/australia-retains-womens-ashes-after-test-draw-with-england/11317810
+22:27:09 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/standoff-hawaii-mountain-telescope-64458485
+22:27:10 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/monsoon-flooding-death-toll-rises-152-south-asia-64455419
+22:27:10 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/irans-islamic-revolutionary-guard-corps-seizes-british-flagged/story?id=64445522
+22:27:11 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+22:27:12 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+22:27:12 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=29&hl=en&ct=clnk&gl=in
+22:27:13 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/
+22:27:13 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:MUXdZTyywjcJ:https://www.abc.net.au/news/+&cd=33&hl=en&ct=clnk&gl=in
+22:27:14 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+22:27:14 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=34&hl=en&ct=clnk&gl=in
+22:27:15 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwim8o_CvcbjAhVZaCsKHS8fA74QHzAhegQIBxAF
+22:27:15 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Walt_Disney_Television
+22:27:16 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+22:27:17 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(by_U.S._state)
+22:27:17 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(table)
+22:27:18 - <searchTextAndVerifyResultTest> https://www.abc.org.uk/
+22:27:18 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QPvGmeE3_T4J:https://www.abc.org.uk/+&cd=35&hl=en&ct=clnk&gl=in
+22:27:19 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.abc.org.uk/+abc&tbo=1&sa=X&ved=2ahUKEwim8o_CvcbjAhVZaCsKHS8fA74QHzAiegQIBhAF
+22:27:19 - <searchTextAndVerifyResultTest> https://www.groundedreason.com/watch-abc-without-cable/
+22:27:20 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/ABC_News
+22:27:20 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/ABC_News
+22:27:21 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:27:21 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:27:22 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/Alphabet_song
+22:27:22 - <searchTextAndVerifyResultTest> Count of https ::57
+22:27:30 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages with Thread Id:- 10
+22:27:30 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=DPk5H8bdNx8
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=xrD2tpgpLCE
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:27:37 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152311234902913024
+22:27:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+22:27:37 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152984705047912448?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:38 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y3fjtH
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152979593042808832?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:38 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y1m0ww
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152974083082129408?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:38 - <searchTextAndVerifyResultTest> https://abcn.ws/32GxB7F
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:38 - <searchTextAndVerifyResultTest> https://abcn.ws/2XZZLqI
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323/video/1
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:38 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y590G9
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905/photo/1
+22:27:38 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:27:39 - <searchTextAndVerifyResultTest> https://abc.go.com/
+22:27:39 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:crsfz-iJGfQJ:https://abc.go.com/+&cd=17&hl=en&ct=clnk&gl=in
+22:27:39 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/man-charged-with-murdering-82yo-woman-in-logan/11329830
+22:27:39 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/mack-horton-refuses-to-share-podium-with-sun-yang-after-final/11329842
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/1000-firefighters-battle-wildfires-central-portugal-64467015
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/feeling-blue-oregon-students-mental-health-days-64470353
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Technology/wireStory/teen-climate-activist-normandys-freedom-prize-64469914
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/uk-navy-heard-audio-thwart-iran-ship-seizure-64467132
+22:27:39 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/australia-retains-womens-ashes-after-test-draw-with-england/11317810
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/standoff-hawaii-mountain-telescope-64458485
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/monsoon-flooding-death-toll-rises-152-south-asia-64455419
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/irans-islamic-revolutionary-guard-corps-seizes-british-flagged/story?id=64445522
+22:27:39 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+22:27:40 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+22:27:40 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=29&hl=en&ct=clnk&gl=in
+22:27:40 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/
+22:27:40 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:MUXdZTyywjcJ:https://www.abc.net.au/news/+&cd=33&hl=en&ct=clnk&gl=in
+22:27:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+22:27:40 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=34&hl=en&ct=clnk&gl=in
+22:27:40 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwjw-53ZvcbjAhXXfn0KHTfOBhoQHzAhegQIBxAF
+22:27:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Walt_Disney_Television
+22:27:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+22:27:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(by_U.S._state)
+22:27:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(table)
+22:27:40 - <searchTextAndVerifyResultTest> https://www.abc.org.uk/
+22:27:40 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QPvGmeE3_T4J:https://www.abc.org.uk/+&cd=35&hl=en&ct=clnk&gl=in
+22:27:40 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.abc.org.uk/+abc&tbo=1&sa=X&ved=2ahUKEwjw-53ZvcbjAhXXfn0KHTfOBhoQHzAiegQIBRAF
+22:27:40 - <searchTextAndVerifyResultTest> https://www.groundedreason.com/watch-abc-without-cable/
+22:27:41 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/ABC_News
+22:27:41 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/ABC_News
+22:27:41 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:27:41 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:27:41 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/Alphabet_song
+22:27:41 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=DPk5H8bdNx8
+22:27:42 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:27:42 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:27:43 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:27:43 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:27:44 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:27:44 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=xrD2tpgpLCE
+22:27:45 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:27:45 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152311234902913024
+22:27:46 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+22:27:46 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:27:47 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152984705047912448?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:47 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y3fjtH
+22:27:48 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152979593042808832?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:48 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y1m0ww
+22:27:49 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152974083082129408?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:50 - <searchTextAndVerifyResultTest> https://abcn.ws/32GxB7F
+22:27:51 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:51 - <searchTextAndVerifyResultTest> https://abcn.ws/2XZZLqI
+22:27:52 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323/video/1
+22:27:52 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:27:53 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y590G9
+22:27:53 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905/photo/1
+22:27:54 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:27:54 - <searchTextAndVerifyResultTest> https://abc.go.com/
+22:27:55 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:crsfz-iJGfQJ:https://abc.go.com/+&cd=17&hl=en&ct=clnk&gl=in
+22:27:56 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/man-charged-with-murdering-82yo-woman-in-logan/11329830
+22:27:56 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/mack-horton-refuses-to-share-podium-with-sun-yang-after-final/11329842
+22:27:57 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/1000-firefighters-battle-wildfires-central-portugal-64467015
+22:27:57 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/feeling-blue-oregon-students-mental-health-days-64470353
+22:27:58 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Technology/wireStory/teen-climate-activist-normandys-freedom-prize-64469914
+22:27:58 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/uk-navy-heard-audio-thwart-iran-ship-seizure-64467132
+22:27:59 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/australia-retains-womens-ashes-after-test-draw-with-england/11317810
+22:27:59 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Lifestyle/wireStory/standoff-hawaii-mountain-telescope-64458485
+22:28 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/monsoon-flooding-death-toll-rises-152-south-asia-64455419
+22:28 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/irans-islamic-revolutionary-guard-corps-seizes-british-flagged/story?id=64445522
+22:28:01 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+22:28:01 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+22:28:02 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=29&hl=en&ct=clnk&gl=in
+22:28:02 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/
+22:28:03 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:MUXdZTyywjcJ:https://www.abc.net.au/news/+&cd=33&hl=en&ct=clnk&gl=in
+22:28:03 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+22:28:04 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=34&hl=en&ct=clnk&gl=in
+22:28:04 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwjw-53ZvcbjAhXXfn0KHTfOBhoQHzAhegQIBxAF
+22:28:05 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Walt_Disney_Television
+22:28:05 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+22:28:06 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(by_U.S._state)
+22:28:06 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/List_of_ABC_television_affiliates_(table)
+22:28:07 - <searchTextAndVerifyResultTest> https://www.abc.org.uk/
+22:28:07 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QPvGmeE3_T4J:https://www.abc.org.uk/+&cd=35&hl=en&ct=clnk&gl=in
+22:28:08 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.abc.org.uk/+abc&tbo=1&sa=X&ved=2ahUKEwjw-53ZvcbjAhXXfn0KHTfOBhoQHzAiegQIBRAF
+22:28:08 - <searchTextAndVerifyResultTest> https://www.groundedreason.com/watch-abc-without-cable/
+22:28:09 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/ABC_News
+22:28:09 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/ABC_News
+22:28:10 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:28:10 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:28:11 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/Alphabet_song
+22:28:20 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page with Thread Id:- 10
+22:28:20 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+22:28:25 - <searchTextAndVerifyResultTest> https://abc.go.com/
+22:28:26 - <searchTextAndVerifyResultTest> Count of https ::1
+22:28:26 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:crsfz-iJGfQJ:https://abc.go.com/+&cd=1&hl=en&ct=clnk&gl=in
+22:28:26 - <searchTextAndVerifyResultTest> Count of https ::2
+22:28:26 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:28:28 - <searchTextAndVerifyResultTest> Count of https ::3
+22:28:28 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152984705047912448?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:28:28 - <searchTextAndVerifyResultTest> Count of https ::4
+22:28:28 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y3fjtH
+22:28:29 - <searchTextAndVerifyResultTest> Count of https ::5
+22:28:29 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152979593042808832?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:28:30 - <searchTextAndVerifyResultTest> Count of https ::6
+22:28:30 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y1m0ww
+22:28:30 - <searchTextAndVerifyResultTest> Count of https ::7
+22:28:30 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152974083082129408?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:28:31 - <searchTextAndVerifyResultTest> Count of https ::8
+22:28:31 - <searchTextAndVerifyResultTest> https://abcn.ws/32GxB7F
+22:28:31 - <searchTextAndVerifyResultTest> Count of https ::9
+22:28:31 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:28:32 - <searchTextAndVerifyResultTest> Count of https ::10
+22:28:32 - <searchTextAndVerifyResultTest> https://abcn.ws/2XZZLqI
+22:28:32 - <searchTextAndVerifyResultTest> Count of https ::11
+22:28:32 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152969861024440323/video/1
+22:28:33 - <searchTextAndVerifyResultTest> Count of https ::12
+22:28:33 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+22:28:34 - <searchTextAndVerifyResultTest> Count of https ::13
+22:28:34 - <searchTextAndVerifyResultTest> https://abcn.ws/2Y590G9
+22:28:34 - <searchTextAndVerifyResultTest> Count of https ::14
+22:28:34 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1152965441926651905/photo/1
+22:28:35 - <searchTextAndVerifyResultTest> Count of https ::15
+22:28:35 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+22:28:36 - <searchTextAndVerifyResultTest> Count of https ::16
+22:28:37 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+22:28:37 - <searchTextAndVerifyResultTest> Count of https ::17
+22:28:37 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=8&hl=en&ct=clnk&gl=in
+22:28:38 - <searchTextAndVerifyResultTest> Count of https ::18
+22:28:38 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:28:38 - <searchTextAndVerifyResultTest> Count of https ::19
+22:28:38 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.youtube.com/watch%3Fv%3D75p-N9YKqNo+abc&tbo=1&sa=X&ved=2ahUKEwjcx6PwvcbjAhXU73MBHRCcBk8QHzAIegQICRAE
+22:28:39 - <searchTextAndVerifyResultTest> Count of https ::20
+22:28:39 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+22:28:39 - <searchTextAndVerifyResultTest> Count of https ::21
+22:28:39 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:28:40 - <searchTextAndVerifyResultTest> Count of https ::22
+22:28:40 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+22:28:41 - <searchTextAndVerifyResultTest> Count of https ::23
+22:28:41 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:28:41 - <searchTextAndVerifyResultTest> Count of https ::24
+22:28:41 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+22:28:42 - <searchTextAndVerifyResultTest> Count of https ::25
+22:28:42 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:28:42 - <searchTextAndVerifyResultTest> Count of https ::26
+22:28:42 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.youtube.com/watch%3Fv%3Dhq3yfQnllfQ+abc&tbo=1&sa=X&ved=2ahUKEwjcx6PwvcbjAhXU73MBHRCcBk8QHzALegQIBxAE
+22:28:43 - <searchTextAndVerifyResultTest> Count of https ::27
+22:28:43 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=hq3yfQnllfQ
+22:28:43 - <searchTextAndVerifyResultTest> Count of https ::28
+22:28:43 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/man-charged-with-murdering-82yo-woman-in-logan/11329830
+22:28:44 - <searchTextAndVerifyResultTest> Count of https ::29
+22:28:44 - <searchTextAndVerifyResultTest> https://www.abc.net.au/news/2019-07-21/mack-horton-refuses-to-share-podium-with-sun-yang-after-final/11329842
+22:28:44 - <searchTextAndVerifyResultTest> Count of https ::30
+22:28:45 - <searchTextAndVerifyResultTest> https://abcnews.go.com/International/wireStory/1000-firefighters-battle-wildfires-central-portugal-64467015
+22:28:45 - <searchTextAndVerifyResultTest> Count of https ::31
+22:28:45 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:28:45 - <searchTextAndVerifyResultTest> Count of https ::32
+22:28:46 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+22:28:46 - <searchTextAndVerifyResultTest> Count of https ::33
+22:28:46 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:28:46 - <searchTextAndVerifyResultTest> Count of https ::34
+22:28:47 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.youtube.com/watch%3Fv%3DBELlZKpi1Zs+abc&tbo=1&sa=X&ved=2ahUKEwjcx6PwvcbjAhXU73MBHRCcBk8QHzAQegQIBhAE
+22:28:47 - <searchTextAndVerifyResultTest> Count of https ::35
+22:28:47 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=BELlZKpi1Zs
+22:28:48 - <searchTextAndVerifyResultTest> Count of https ::36
+22:28:48 - <searchTextAndVerifyResultTest> https://www.groundedreason.com/watch-abc-without-cable/
+22:28:49 - <searchTextAndVerifyResultTest> Count of https ::37
+22:28:49 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:28:49 - <searchTextAndVerifyResultTest> Count of https ::38
+22:28:49 - <searchTextAndVerifyResultTest> https://eits.uga.edu/network_and_phones/cable_tv/channel_listing/
+22:28:50 - <searchTextAndVerifyResultTest> Count of https ::39
+22:28:50 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/ABC_News
+22:28:50 - <searchTextAndVerifyResultTest> Count of https ::40
+22:28:50 - <searchTextAndVerifyResultTest> https://en.m.wikipedia.org/wiki/ABC_News
+22:28:51 - <searchTextAndVerifyResultTest> Count of https ::41
+22:28:51 - <searchTextAndVerifyResultTest> https://www.abc.net.au/newsradio/listen/frequencies.htm
+22:28:51 - <searchTextAndVerifyResultTest> Count of https ::42
+22:28:51 - <searchTextAndVerifyResultTest> https://www.abc.net.au/newsradio/listen/frequencies.htm
+22:28:52 - <searchTextAndVerifyResultTest> Count of https ::43
+18:48:04 - Deleting previously exisitng screenshot directories ----
+18:48:04 - getScreenshotFolderLocation() - C:\Users\Sunil kumar\workspace2\SeleniumJenkinsAllure_V1.1\..\..\Screenshots\
+18:48:25 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result with Thread Id:- 10
+18:48:25 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages with Thread Id:- 11
+18:48:25 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:48:25 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:49:18 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:49:19 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:49:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:49:28 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:49:53 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:49:54 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:49:55 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:50:05 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:50:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:50:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:50:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:50:11 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:50:11 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=i4LOQlu2pMY
+18:50:11 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:50:11 - <searchTextAndVerifyResultTest> https://abc.com/
+18:50:12 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:50:12 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:50:12 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:50:12 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:50:12 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:50:13 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:50:13 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:50:14 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:50:15 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:50:17 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:50:17 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:50:17 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:50:21 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:50:21 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=14&hl=en&ct=clnk&gl=in
+18:50:21 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:50:21 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:50:22 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:50:22 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:50:22 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:22 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:50:22 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:22 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:50:22 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:22 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:23 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:50:23 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:23 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:50:23 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:24 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:50:24 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=i4LOQlu2pMY
+18:50:24 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:50:24 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:50:24 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:50:24 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:50:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:50:25 - <searchTextAndVerifyResultTest> https://abc.com/
+18:50:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:50:25 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:50:26 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:50:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:50:26 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=46&hl=en&ct=clnk&gl=in
+18:50:26 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwiq1KSyvLjpAhW-yDgGHaDZBBgQHzAtegQIDBAH
+18:50:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:50:26 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:50:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:50:27 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:50:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:50:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:50:27 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:50:28 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwiq1KSyvLjpAhW-yDgGHaDZBBgQHzAuegQIERAI
+18:50:29 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:50:30 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:50:31 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:50:33 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:50:34 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:50:36 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:50:37 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=14&hl=en&ct=clnk&gl=in
+18:50:38 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:50:43 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:50:44 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:50:45 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:50:46 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:48 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:50:48 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:49 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:50:51 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:52 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:52 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:50:53 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:54 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:50:54 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:50:55 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:50:56 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:50:56 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:50:58 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages with Thread Id:- 11
+18:50:58 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:51:10 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:51:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:11 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:12 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:13 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:51:13 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:51:14 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:51:17 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=46&hl=en&ct=clnk&gl=in
+18:51:19 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwiXtKWyvLjpAhU0xjgGHZSqCE8QHzAtegQIERAH
+18:51:19 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:19 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:51:20 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:51:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:51:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:51:22 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:51:23 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwiXtKWyvLjpAhU0xjgGHZSqCE8QHzAuegQIEBAI
+18:51:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:51:27 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:51:27 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:51:28 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:51:28 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:51:28 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:51:29 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:51:29 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:51:29 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=dpGYmYC3p0I
+18:51:30 - <searchTextAndVerifyResultTest> https://abc.com/
+18:51:30 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:51:30 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:51:30 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:51:30 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:51:30 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:51:31 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:51:31 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:51:31 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=13&hl=en&ct=clnk&gl=in
+18:51:31 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:51:32 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:51:32 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:51:32 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:51:32 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:33 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:51:33 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:33 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:51:33 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:34 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:34 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:51:34 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:34 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:51:34 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:51:35 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:51:35 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:51:35 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:51:35 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:51:35 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:35 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:36 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:51:36 - <searchTextAndVerifyResultTest> https://www.huffpost.com/entry/new-version-alphabet-song-2019-people-hate_n_5db719ffe4b006d49172d2d5
+18:51:36 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:51:37 - <searchTextAndVerifyResultTest> https://abcnews.go.com/Live
+18:51:37 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:51:39 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=37&hl=en&ct=clnk&gl=in
+18:51:40 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwiQl9zuvLjpAhX3zTgGHWYDDYEQHzAkegQICxAH
+18:51:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:51:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:51:40 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:51:41 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:51:41 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:51:41 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwiQl9zuvLjpAhX3zTgGHWYDDYEQHzAlegQIChAI
+18:52:37 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages with Thread Id:- 11
+18:52:38 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:52:38 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result with Thread Id:- 10
+18:52:38 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:53:04 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=NPM40ey1OHQ
+18:53:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:53:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=i8VICttp94g
+18:53:08 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:53:09 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:53:09 - <searchTextAndVerifyResultTest> https://abc.com/
+18:53:09 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:53:09 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:53:09 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:53:09 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:53:10 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:53:10 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:53:10 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:53:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=L29yM8nQ-3E
+18:53:10 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:53:11 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=14&hl=en&ct=clnk&gl=in
+18:53:11 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:53:11 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:53:11 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:53:11 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:53:11 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:11 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:53:12 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:12 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=CvKZDqwSeAc
+18:53:12 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:53:12 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:12 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:12 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:53:13 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:13 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=E8Mn0HyBWCI
+18:53:13 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:53:13 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:53:13 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:53:13 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:53:13 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:53:14 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:53:14 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:53:14 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:53:14 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:53:19 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:53:20 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:53:20 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=yMzyleT2FqY
+18:53:20 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:53:21 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=46&hl=en&ct=clnk&gl=in
+18:53:21 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwjy79WivbjpAhXrzDgGHSJOBUEQHzAtegQIERAH
+18:53:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:53:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:53:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:53:21 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:53:22 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=W4XiSFyYRE8
+18:53:22 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:53:22 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwjy79WivbjpAhXrzDgGHSJOBUEQHzAuegQIEBAI
+18:53:23 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=pTi1R_3dOuc
+18:53:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=NSH1mOtc9-8
+18:53:26 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0UIB9Y4OFPs
+18:53:27 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=c6C0IzCO074
+18:53:28 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid
+18:53:29 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:YREcRPND-YoJ:https://en.wikipedia.org/wiki/Diesel_exhaust_fluid+&cd=12&hl=en&ct=clnk&gl=in
+18:53:30 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/Diesel_exhaust_fluid+def&tbo=1&sa=X&ved=2ahUKEwjOpoGfvbjpAhXVxjgGHYVPCj8QHzALegQIDhAJ
+18:53:31 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Other_names
+18:53:32 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Background
+18:53:33 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Chemistry
+18:53:34 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Diesel_exhaust_fluid#Operation_in_winter_time
+18:53:37 - <searchTextAndVerifyResultTest> https://news.pickuptrucks.com/2014/04/top-10-facts-about-diesel-exhaust-fluid.html
+18:53:38 - <searchTextAndVerifyResultTest> https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf
+18:53:39 - <searchTextAndVerifyResultTest> https://www.caranddriver.com/news/a15342943/what-happens-when-the-diesel-exhaust-fluid-tank-runs-dry/
+18:53:39 - <searchTextAndVerifyResultTest> https://www.rdoequipment.com/rdo-news/10-questions-and-answers-about-diesel-exhaust-fluid
+18:53:40 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/def
+18:53:41 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:-MvVjCpx0j0J:https://www.dictionary.com/browse/def+&cd=21&hl=en&ct=clnk&gl=in
+18:53:44 - <searchTextAndVerifyResultTest> https://www.merriam-webster.com/dictionary/def
+18:53:46 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:E2kzA1_qmkIJ:https://www.merriam-webster.com/dictionary/def+&cd=22&hl=en&ct=clnk&gl=in
+18:53:48 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.merriam-webster.com/dictionary/def+def&tbo=1&sa=X&ved=2ahUKEwjOpoGfvbjpAhXVxjgGHYVPCj8QHzAVegQICBAJ
+18:53:49 - <searchTextAndVerifyResultTest> https://www.defindia.org/
+18:53:49 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:H93pN7vT2xgJ:https://www.defindia.org/+&cd=23&hl=en&ct=clnk&gl=in
+18:53:50 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC004_GMGS001_Perform_Google_Search_And_Verify_Result_Two_Pages with Thread Id:- 11
+18:53:50 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:53:51 - <searchTextAndVerifyResultTest> https://dictionary.cambridge.org/dictionary/english/def
+18:53:52 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:QpOA3ckVIRQJ:https://dictionary.cambridge.org/dictionary/english/def+&cd=24&hl=en&ct=clnk&gl=in
+18:53:53 - <searchTextAndVerifyResultTest> https://www.cnet.com/roadshow/news/diesel-engine-exhaust-fluid-urea-scr-egr/
+18:53:53 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:qE7Hmi04AXgJ:https://www.cnet.com/roadshow/news/diesel-engine-exhaust-fluid-urea-scr-egr/+&cd=25&hl=en&ct=clnk&gl=in
+18:53:54 - <searchTextAndVerifyResultTest> https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf
+18:53:55 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Wy552FmZZnQJ:https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf+&cd=26&hl=en&ct=clnk&gl=in
+18:53:56 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.cumminsfiltration.com/sites/default/files/MB10033.pdf+def&tbo=1&sa=X&ved=2ahUKEwjOpoGfvbjpAhXVxjgGHYVPCj8QHzAZegQICxAJ
+18:53:58 - <searchTextAndVerifyResultTest> https://www.castrol.com/en_in/india/home/heavy-commercial-vehicles-oil-and-fluids/product-types/diesel-exhaust-fluid.html
+18:54 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:F_qEYc6OGWsJ:https://www.castrol.com/en_in/india/home/heavy-commercial-vehicles-oil-and-fluids/product-types/diesel-exhaust-fluid.html+&cd=27&hl=en&ct=clnk&gl=in
+18:54 - <searchTextAndVerifyResultTest> https://en.wiktionary.org/wiki/def
+18:54:01 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:VatCagMPvaYJ:https://en.wiktionary.org/wiki/def+&cd=28&hl=en&ct=clnk&gl=in
+18:54:02 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wiktionary.org/wiki/def+def&tbo=1&sa=X&ved=2ahUKEwjOpoGfvbjpAhXVxjgGHYVPCj8QHzAbegQIDxAJ
+18:54:14 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:54:19 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:54:24 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:54:31 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:54:35 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC002_GMGS001_Perform_Google_Search with Thread Id:- 10
+18:54:35 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:54:36 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:54:42 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:54:48 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:54:53 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=i8VICttp94g
+18:54:58 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:55:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:55:13 - <searchTextAndVerifyResultTest> https://abc.com/
+18:55:18 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:55:19 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC002_GMGS001_Perform_Google_Search with Thread Id:- 10
+18:55:19 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:55:23 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:55:28 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:55:33 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:55:38 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:55:43 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:55:49 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:55:54 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:55:59 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=14&hl=en&ct=clnk&gl=in
+18:56:04 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:56:09 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:56:09 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC003_GMGS001_Perform_Google_Search_And_Count_Https with Thread Id:- 10
+18:56:09 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:56:14 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:56:21 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:56:26 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:56:27 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:29 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=71h8MZshGSs
+18:56:30 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zAax3z5uQ2k
+18:56:31 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=eegWzglBMh0
+18:56:32 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=0GE4dq9G-rA
+18:56:32 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:56:32 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=jHxyMPiLE0I
+18:56:34 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=_UR-l3QI2nE
+18:56:36 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=i8VICttp94g
+18:56:37 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=uCIsBFV87-U
+18:56:37 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:38 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=zuNKD8eyGNg
+18:56:39 - <searchTextAndVerifyResultTest> https://abc.com/
+18:56:40 - <searchTextAndVerifyResultTest> https://abc.com/shows
+18:56:41 - <searchTextAndVerifyResultTest> https://abc.com/apps
+18:56:42 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:56:42 - <searchTextAndVerifyResultTest> https://abc.com/watch-live
+18:56:44 - <searchTextAndVerifyResultTest> https://support.abc.com/hc/en-us
+18:56:45 - <searchTextAndVerifyResultTest> https://www.abc.net.au/
+18:56:46 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in
+18:56:46 - <searchTextAndVerifyResultTest> https://abcnews.go.com/
+18:56:47 - <searchTextAndVerifyResultTest> https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg
+18:56:48 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:yZfsb4CW48wJ:https://www.youtube.com/channel/UC_IpSl6O_-IRAA6fiNs05Gg+&cd=14&hl=en&ct=clnk&gl=in
+18:56:48 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:49 - <searchTextAndVerifyResultTest> https://www.dailymail.co.uk/tvshowbiz/article-8324715/American-Idol-renewed-fourth-season-ABC-ahead-season-three-finale.html
+18:56:50 - <searchTextAndVerifyResultTest> https://www.hollywoodreporter.com/live-feed/last-dance-follow-up-special-air-abc-1294690
+18:56:50 - <searchTextAndVerifyResultTest> https://timesofindia.indiatimes.com/tv/news/english/american-idol-renewed-for-season-four-by-abc/articleshow/75773918.cms
+18:56:51 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:56:52 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261643580621426688?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:53 - <searchTextAndVerifyResultTest> https://abcn.ws/363pB2A
+18:56:53 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:56 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642635053277184?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:57 - <searchTextAndVerifyResultTest> https://abcn.ws/2LvAlxl
+18:56:57 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:58 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261642604032200705?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:56:58 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:56:59 - <searchTextAndVerifyResultTest> https://abcn.ws/2T9fQL9
+18:56:59 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:57 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:57:03 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:57:03 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261641825607208963?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:57:04 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:57:04 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:57:05 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:57:06 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:57:06 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:07 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:08 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:57:08 - <searchTextAndVerifyResultTest> https://abcn.ws/3g0VttB
+18:57:09 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:57:10 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:57:11 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=46&hl=en&ct=clnk&gl=in
+18:57:12 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwiBzOeBvrjpAhWHzjgGHdwmDzUQHzAtegQIDxAH
+18:57:12 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:57:13 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:57:14 - <searchTextAndVerifyResultTest> https://twitter.com/ABC/status/1261632973641789441?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet
+18:57:14 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:57:14 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:57:15 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:57:16 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwiBzOeBvrjpAhWHzjgGHdwmDzUQHzAuegQIEBAI
+18:57:16 - <searchTextAndVerifyResultTest> Count of https ::52
+18:57:19 - <searchTextAndVerifyResultTest> https://abcn.ws/363IyCo
+18:57:24 - <searchTextAndVerifyResultTest> https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+18:57:25 - <searchTextAndVerifyResultTest> https://www.dictionary.com/browse/abc-s
+18:57:25 - <searchTextAndVerifyResultTest> https://www.killthecablebill.com/tv-channels/abc/
+18:57:25 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:26 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:26 - <searchTextAndVerifyResultTest> https://www.youtube.com/watch?v=75p-N9YKqNo
+18:57:26 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:57:26 - <searchTextAndVerifyResultTest> https://www.ontvtonight.com/guide/listings/channel/69048344/abc.html
+18:57:26 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/American_Broadcasting_Company
+18:57:26 - <searchTextAndVerifyResultTest> https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=46&hl=en&ct=clnk&gl=in
+18:57:26 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwiKor6_vbjpAhXDyDgGHdo4BC0QHzAtegQIDRAH
+18:57:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Blue_Network
+18:57:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/720p
+18:57:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/High-definition_television
+18:57:27 - <searchTextAndVerifyResultTest> https://en.wikipedia.org/wiki/Letterbox
+18:57:27 - <searchTextAndVerifyResultTest> https://www.facebook.com/ABCNetwork/
+18:57:27 - <searchTextAndVerifyResultTest> https://www.google.com/search?q=related:https://www.facebook.com/ABCNetwork/+abc&tbo=1&sa=X&ved=2ahUKEwiKor6_vbjpAhXDyDgGHdo4BC0QHzAuegQIDhAI
+18:58 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page with Thread Id:- 11
+18:58 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:58:52 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page with Thread Id:- 11
+18:58:52 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+18:59:32 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page with Thread Id:- 11
+18:59:32 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
+19:00:20 - <searchTextAndVerifyResultTest> Test Case - GS_GM_TC005_GMGS001_Perform_Google_Search_And_Verify_Count_Of_Fifth_Page with Thread Id:- 11
+19:00:20 - <searchTextAndVerifyResultTest> googleSearchPage.getTitle() Google
